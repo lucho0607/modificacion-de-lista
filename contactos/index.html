@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const contactos = [
+    {nombre: "luis", apellido: "cubillos"},
+    {nombre: "gabriella", apellido: "cubillos"},
+    {nombre: "javier", apellido: "cubillos"},
+    {nombre: "oscar", apellido: "cubillos"},
+    {nombre: "maria", apellido: "cubillos"}
+];
+
+const editar = contactos.splice(4,2,
+{nombre: "odilia", apellido: "saavedra"},
+{nombre: "maria", apellido: "saavedra"}
+);
+console.log('editados', editar)
+console.log(contactos);
+    </script>
+    
+</body>
+</html>
